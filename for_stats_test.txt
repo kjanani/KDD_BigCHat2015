@@ -1,0 +1,16 @@
+retweeted
+retweeted_status
+retweet_count
+favorited
+favorite_count
+in_reply_to_status_id
+entities_urls
+entities_symbols
+entities_hashtags
+user_verified
+user_friends_count
+user_followers_count
+user_statuses_count
+user_favourites_count
+possibly_sensitive
+text
