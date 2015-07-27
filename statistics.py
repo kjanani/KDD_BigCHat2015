@@ -14,7 +14,7 @@ if __name__ == '__main__':
     fid = open('statistical_test_results.txt','w');
     cols = map(lambda x: x.strip(), open('../for_stats_test.txt','r').readlines());
    
-    fid.write('feature;truth;rumour;hyp;p\n'); 
+    fid.write('feature;truth;rumour;p;hyp\n'); 
     for i in range(len(cols)-1):
         print cols[i]
         stat_result = scipy.stats.ttest_ind(T[:,i],R[:,i],equal_var=False);
