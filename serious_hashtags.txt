@@ -1,0 +1,5 @@
+CDC
+breakingnews
+cnn
+foxnews
+ebolaresponse
