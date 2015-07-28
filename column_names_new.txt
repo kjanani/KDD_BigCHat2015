@@ -1,0 +1,27 @@
+text; text of tweet (str)
+retweeted; has the authenticating user retweeted this tweet ()
+favorited; has the authenticating user favorited this tweet () 
+retweeted_status; is this tweet a retweet () !!
+retweet_count; if the tweet is a retweet, how many times has the original tweet been retweeted.  if not a retweet, number is 0. (int) !!
+favorite_count; how many times has this tweet been favorited.  For retweets, it is the count for the original tweet.  (int) !!
+created_at; when was the tweet created (str)
+in_reply_to_status_id; is this tweet a reply. For retweets, it considers the original tweet (None) !!
+possibly_sensitive; has the tweet been maked sensitive (or the original tweet) !!
+truncated; has the tweet been truncated (or the original tweet) !!
+coordinates; corrdinates of the tweet, if it exists.
+entities:urls; number of urls in the tweet (or the original tweet) !!
+entities:symbols; number of $ symbols in the tweet (or the original tweet) !!
+entities:hashtags; number of hashtags in the tweet (or the original tweet) !!
+entities:hashtags:text; lists all the hashtags in the tweet (or the original tweet) !!
+user:verified;
+user:friends_count;
+user:lang;
+user:location;
+user:utc_offset;
+user:description
+user:id;
+user:followers_count;
+user:statuses_count;
+user:name;
+user:favourites_count;
+user:screen_name;
